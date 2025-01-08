@@ -309,7 +309,7 @@ a {
 
 .project__title {
     color: #fff;
-    width: 468px;
+    max-width: 468px;
 }
 
 .project__desc {
