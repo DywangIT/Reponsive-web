@@ -3,10 +3,12 @@
 ::before {
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
+    scroll-margin-top: 100px;
 }
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
