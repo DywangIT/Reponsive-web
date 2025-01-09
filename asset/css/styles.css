@@ -23,6 +23,12 @@ a {
     color: currentColor;
 }
 
+button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
 .container {
     padding: 0;
 }
@@ -110,10 +116,7 @@ a {
 .hero {
     padding: 41px 0 0;
     background: #fbfaff;
-    background-image: url(/asset/imgs/hero-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background-image: url(/asset/imgs/hero-bg.png) no-repeat center/contain;
 }
 
 .hero-row {
@@ -251,7 +254,7 @@ a {
     align-items: center;
 }
 
-.design .row:last-child {
+.design .row:nth-child(2) {
     margin-top: 60px;
 }
 
@@ -669,10 +672,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(/asset/imgs/cta-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-image: url(/asset/imgs/cta-bg.png) no-repeat center/cover;
 }
 
 .cta__titlte {

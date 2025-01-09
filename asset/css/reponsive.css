@@ -175,10 +175,7 @@
     }
 
     .project-item {
-        background-image: url(/asset/imgs/item-img-bg.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        background-image: url(/asset/imgs/item-img-bg.png) no-repeat center/cover;
     }
 
     .item__info--heading {
@@ -563,10 +560,7 @@
 
     .hero-img__box {
         width: 100%;
-        background-image: url(/asset/imgs/hero-bg-tablet.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        background-image: url(/asset/imgs/hero-bg-tablet.png) no-repeat center/cover;
     }
     /*  */
     .clients-row {
@@ -713,10 +707,7 @@
     .hero-img__box {
         margin-top: 20px;
         width: 100%;
-        background-image: url(/asset/imgs/hero-bg-tablet.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        background-image: url(/asset/imgs/hero-bg-tablet.png) no-repeat center/cover;
     }
 
     .hero-img {
